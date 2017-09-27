@@ -1,4 +1,4 @@
-# AngularTourOfHeroes
+# Angular Tour Of Heroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
@@ -26,3 +26,26 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Tests
+
+I wrote several tests for this tutorial app.
+
+### Component and Service Tests
+
+The component and service tests will be executed in a browser. Each test checks a component or service for itself. The data for the tests is mocked.
+
+- Component test files has the ending `*.component.spec.ts`
+- Service test files has the ending `*.service.spec.ts`
+- The configuration can be found in the `karma.conf.js` file
+
+These tests will be executed with `ng test`
+
+### E2E Tests
+
+To tests several components in one tests you can run E2E tests. These tests are working with Selenium / WebDriver and the syntax and patterns are very similar.
+
+- E2E test files are located in the `e2e` directory
+- The configuration can be found in the `protractor.conf.js` file
+
+These tests will be executed with `ng e2e`.
