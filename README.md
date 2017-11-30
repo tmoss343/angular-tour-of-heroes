@@ -43,7 +43,7 @@ These tests will be executed with `ng test`
 
 ### E2E Tests
 
-To tests several components in one tests you can run E2E tests. These tests are working with Selenium / WebDriver and the syntax and patterns are very similar.
+To test several components in one test you can run E2E tests. These tests are working with Selenium / WebDriver and the syntax and patterns are very similar.
 
 - E2E test files are located in the `e2e` directory
 - The configuration can be found in the `protractor.conf.js` file
