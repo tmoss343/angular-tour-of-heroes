@@ -31,12 +31,10 @@
       "type": "chrome",
       "request": "attach",
       "name": "Attach to Karma Chrome",
+      "sourceMaps": true,
       "address": "localhost",
       "port": 9333,
-      "pathMapping": {
-        "/": "${workspaceRoot}",
-        "/base/": "${workspaceRoot}/"
-      }
+      "webRoot": "${workspaceRoot}"
     }
   ]
 }
