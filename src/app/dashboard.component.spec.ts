@@ -67,7 +67,7 @@ describe('DashboardComponent', () => {
 
     const deElements = fixture.debugElement.queryAll(By.css('.hero h4'));
 
-    expect(deElements.length).toBe(4);
+    expect(deElements.length).toBe(5);
     expect(deElements[0].nativeElement.textContent).toBe('Superman');
     expect(deElements[1].nativeElement.textContent).toBe('Iron Man');
     expect(deElements[2].nativeElement.textContent).toBe('Kick-ass');
